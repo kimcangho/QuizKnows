@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+.landing-title {
+  color: #294264;
+  font-family: Karla;
+  font-weight: 700;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.landing-instructions {
+  color: #294264;
+  font-family: inter;
+  font-weight: 400;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.landing-button {
+  color: #F5F7FB;
+  font-family: inter;
+  font-weight: 500;
+  background-color: #4D5B9E;
+  padding: 15px 30px;
+  border-radius: 15px;
+  border-width: 1px;
+  border-color: #4D5B9E;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.landing-button:hover, .answer-button:hover {
+  background-color: #F5F7FB;
+  color: #4D5B9E;
+  border-color: #4D5B9E;
+  cursor: pointer;
+}
+
+.container {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.answer-button {
+  background-color: transparent;
+  color: #293264;
+  border-radius: 8px;
+  padding: 4px;
+  font-family: Inter;
+  font-weight: 500;
+  border-width: 1px;
+  margin: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.selected-button {
+  background-color: #D6DBF5;
+  color: #293264;
+  border-radius: 8px;
+  padding: 4px;
+  font-family: Inter;
+  font-weight: 500;
+  border-width: 0px;
+  margin: 10px;
+}
+
+.correct-button {
+  background-color: #94D7A2;
+  color: #293264;
+  border-radius: 8px;
+  padding: 4px;
+  font-family: Inter;
+  font-weight: 500;
+  border-width: 0px;
+  margin: 10px;
+}
+
+.incorrect-button {
+  background-color: #F8BCBC;
+  color: #293264;
+  border-radius: 8px;
+  padding: 4px;
+  font-family: Inter;
+  font-weight: 500;
+  border-width: 0px;
+  margin: 10px;
 }
